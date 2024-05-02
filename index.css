@@ -1,9 +1,12 @@
 body {
-    background-image: url(https://t4.ftcdn.net/jpg/06/46/08/27/240_F_646082704_TdVPiOQKyeERrJmdgHRAQIfBPbiqVYfM.jpg);
+    background-image: url(https://tse2.mm.bing.net/th/id/OIG3.ViWaA77YInThmwbQH2Uk?pid=ImgGn);
     background-size: cover;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
@@ -28,6 +31,11 @@ button {
     width: 150px;
     margin-bottom: 5px;
     border-radius: 30px;
+    cursor:grab;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: perspective(500px) rotateX(10deg);
+  transition: transform 0.3s, box-shadow 0.3s;
+
 }
 
 #increment-btn {
@@ -39,4 +47,10 @@ button {
 }
 p{
     color: whitesmoke
+}
+div{
+    background-color: rgba(102, 100, 100, 0.3);
+    padding: 5rem;
+    font-size: x-large;
+    text-shadow: 5px 5px 2px black;
 }
